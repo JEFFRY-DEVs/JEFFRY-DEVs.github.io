@@ -77,6 +77,12 @@ footer {
 	padding: 40px;
 }
 
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
+
 /* ------------------------------------ */
 /* ----- Responsive para Mobiles ------ */
 /* ------------------------------------ */
