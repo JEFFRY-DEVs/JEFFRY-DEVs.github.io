@@ -1,0 +1,114 @@
+html{
+	scroll-behavior: smooth;
+	animation-duration: 500ms;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+	width: 94%;
+	margin: 0 auto;
+}
+
+.contenedor-trabajos{
+	background-color: #ffffff;
+}
+
+#trabajos{
+	padding: 70px 50px;
+}
+
+.titulo_trabajos{
+	font-size: 25px;
+	font-weight: 600;
+	color: #494141;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.trabajos__cards{
+	display: flex;
+	justify-content: center;
+}
+
+.trabajos__card{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.trabajos__card:not(:last-child){
+	margin-right: 1.5rem ;
+}
+
+.trabajos__card__img{
+	width: 100%;
+	height: 250px;
+	background-color: #dedef9;
+	border-radius: 8px;
+	box-shadow: 8px 3px 8px 2px rgba(162, 4, 4, 0.08);
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 2rem;
+}
+
+.trabajo1, .trabajo2, .trabajo3, .trabajo4, .trabajo5, .trabajo6, .trabajo7, .trabajo8 {
+	width: 80%;
+}
+
+
+.trabajos__card__nombre {
+    text-align: center;
+    font-weight: 800;
+}
+
+.trabajos__card__descripcion {
+    margin: 7px;
+}
+
+footer {
+	text-align: center;
+	background: url(/imagenes/bg.jpg);
+	padding: 40px;
+}
+
+/* ------------------------------------ */
+/* ----- Responsive para Mobiles ------ */
+/* ------------------------------------ */
+
+@media only screen and (max-width: 767px){
+
+	#sobre-nosotros{
+		padding: 40px 0 20px 0;
+	}
+
+	.trabajos__cards{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.trabajos__card{
+		margin-bottom: 2rem;
+		width: 100%;
+	}
+
+	.trabajos__card__img{
+		margin-bottom: 1rem;
+		width: 90%;
+	}
+
+}
+
+/* ------------------------------------ */
+/* ----- Responsive para Tablets ------ */
+/* ------------------------------------ */
+
+@media (min-width:768px) and (max-width:1024px){
+
+
+}
